@@ -16,21 +16,5 @@ public class SplashActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
 
-        //mendapati ID pada XML
-        applogo = findViewById(R.id.applogo);
-
-        //membuat timer untuk pindah activity secara otomatis
-        Handler handler = new Handler();
-        handler.postDelayed(new Runnable() { //delay proses ini di jalankan
-            @Override
-            public void run() {
-                //Melakukan sesuati setelah 2s
-                //menuju halman lain
-                Intent abc = new Intent(package context:SplashActivity.this, GetStartedActivity.class);
-                startActivity(abc);
-                finish();
-            }
-        }, 2000);
-
     }
 }
