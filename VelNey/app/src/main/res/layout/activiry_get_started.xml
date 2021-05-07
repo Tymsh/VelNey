@@ -23,13 +23,25 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="0dp"
-        android:layout_marginBottom="0dp"
-        android:layout_marginStart="0dp"
-        android:layout_marginEnd="0dp"
-        android:background="#3498db"
-        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/bg_overlay_getstarted"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:layout_width="107dp"
+        android:layout_height="76dp"
+        android:src="@drawable/applogopt"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="200dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Travel\nJourney Awaits\nYou"
         />
 </androidx.constraintlayout.widget.ConstraintLayout>
