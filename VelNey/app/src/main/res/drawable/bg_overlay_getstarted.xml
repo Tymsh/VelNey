@@ -6,4 +6,10 @@
         android:endColor="#7002093A"
         />
 
+    <gradient
+        android:startColor="#02093A"
+        android:endColor="#7002093A"
+        />
+
 </shape>
+
