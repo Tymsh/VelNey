@@ -23,6 +23,7 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_marginTop="8dp"
         android:background="@drawable/bg_overlay_getstarted"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -51,14 +52,18 @@
         tools:layout_editor_absoluteY="236dp" />
 
     <Button
-        android:layout_width="274dp"
+        dth="274dp"
         android:layout_height="55dp"
-        android:text="@string/signin"
+        android:layout_marginEnd="144dp"
+        android:layout_marginBottom="200dp"
+        android:layout_wi
         android:background="@drawable/bg_btn_blue_primary"
+        android:fontFamily="@font/mmedium"
+        android:text="@string/signin"
         android:textColor="#FFF"
         android:textSize="20sp"
-        tools:layout_editor_absoluteX="68dp"
-        tools:layout_editro_absolutY="457dp"
-        />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editro_absolutY="457dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
