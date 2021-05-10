@@ -25,23 +25,38 @@
         android:layout_height="match_parent"
         android:background="@drawable/bg_overlay_getstarted"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:layout_width="107dp"
-        android:layout_height="76dp"
+        android:layout_width="131dp"
+        android:layout_height="91dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="120dp"
         android:src="@drawable/applogopt"
-        android:layout_marginStart="56dp"
-        android:layout_marginTop="200dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:fontFamily="@font/mregular"
+        android:lineSpacingExtra="9dp"
         android:text="Your Travel\nJourney Awaits\nYou"
-        />
+        android:textColor="#FFF"
+        android:textSize="46sp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="236dp" />
+
+    <Button
+        android:layout_width="274dp"
+        android:layout_height="55dp"
+        android:Text="@string/signin"
+        android:background="@drawable/bg_btn_blue_primary"
+        android:textColor="#FFF"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="457dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

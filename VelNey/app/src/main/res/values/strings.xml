@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">VelNey</string>
     <string name="slogan">Enjoy your traveling journey</string>
+    <string name="signin">Sign In</string>
 </resources>
