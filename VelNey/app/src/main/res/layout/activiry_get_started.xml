@@ -53,10 +53,12 @@
     <Button
         android:layout_width="274dp"
         android:layout_height="55dp"
-        android:Text="@string/signin"
+        android:text="@string/signin"
         android:background="@drawable/bg_btn_blue_primary"
         android:textColor="#FFF"
         android:textSize="20sp"
         tools:layout_editor_absoluteX="68dp"
-        tools:layout_editor_absoluteY="457dp" />
+        tools:layout_editro_absolutY="457dp"
+        />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
