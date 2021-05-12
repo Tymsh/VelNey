@@ -3,4 +3,6 @@
     <string name="slogan">Enjoy your traveling journey</string>
     <string name="signin">Sign In</string>
     <string name="newaccount">New Account</string>
+    <string name="username_label">Username</string>
+    <string name="password_label">Password</string>
 </resources>
