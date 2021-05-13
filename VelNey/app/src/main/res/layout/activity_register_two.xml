@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/bgPrimary"
-    tools:context=".RegisterOneActivity"
+    tools:context=".RegisterTwoActivity"
     >
 
     <View
@@ -26,7 +26,7 @@
         android:layout_marginEnd="100dp"
         android:fontFamily="@font/mregular"
         android:lineSpacingExtra="9dp"
-        android:text="Create New Account"
+        android:text="Take a Photo"
         android:textColor="#FFF"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -45,7 +45,7 @@
         android:layout_marginEnd="100dp"
         android:fontFamily="@font/mlight"
         android:lineSpacingExtra="9dp"
-        android:text="Please fill up the form below to \ncomplete your administration"
+        android:text="Make your best adventurous \nlook now"
         android:textAlignment="center"
         android:textColor="#FFF"
         android:textSize="20sp"
@@ -86,7 +86,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:fontFamily="@font/mlight"
-                android:text="@string/username_label"
+                android:text="@string/name_label"
                 android:textColor="@color/grayPrimary"
                 android:textSize="20sp" />
 
@@ -112,31 +112,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:fontFamily="@font/mlight"
-                android:text="@string/password_label"
-                android:textColor="@color/grayPrimary"
-                android:textSize="20sp" />
-
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:background="@drawable/bg_input_edit"
-                android:inputType="textPassword" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="24dp"
-            android:layout_marginRight="24dp"
-            android:color="@color/blackPrimary"
-            android:lines="1"
-            android:orientation="vertical">
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:fontFamily="@font/mlight"
-                android:text="@string/email_label"
+                android:text="@string/bio_label"
                 android:textColor="@color/grayPrimary"
                 android:textSize="20sp" />
 
