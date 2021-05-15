@@ -26,7 +26,6 @@ public class RegisterOneActivity extends AppCompatActivity {
                 startActivity(gotonextregister);
             }
         });
-    }
 
         btn_back = findViewById(R.id.btn_back);
         btn_back.setOnClickListener(new View.OnClickListener() {
