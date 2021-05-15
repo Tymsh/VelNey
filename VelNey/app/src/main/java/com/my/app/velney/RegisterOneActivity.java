@@ -10,7 +10,7 @@ import android.widget.LinearLayout;
 
 public class RegisterOneActivity extends AppCompatActivity {
 
-    Button btn_continue;
+    Button btn_next;
     LinearLayout btn_back;
 
     @Override
@@ -18,15 +18,15 @@ public class RegisterOneActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register_one);
 
-        btn_continue = findViewById(R.id.btn_continue);
-        btn_continue.setOnClickListener(new  View.OnClickListener(){
+        btn_next = findViewById(R.id.btn_next);
+        btn_next.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent gotonextregister = new Intent(RegisterOneActivity.this,RegisterTwoActivity.class);
+                Intent gotonextregister = new Intent(RegisterOneActivity.this, RegisterTwoActivity.class);
                 startActivity(gotonextregister);
             }
         });
-        }
+    }
 
         btn_back = findViewById(R.id.btn_back);
         btn_back.setOnClickListener(new View.OnClickListener() {
@@ -34,6 +34,8 @@ public class RegisterOneActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent backtosignin = new Intent(RegisterOneActivity.this, SignInActivity.class);
                 startActivity(backtosignin);
-        }
-    });
+            }
+         });
+    }
+
 }
