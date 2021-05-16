@@ -5,15 +5,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/bgPrimary"
-    tools:context=".RegisterTwoActivity">
+    tools:context=".HomeActivity"
+    >
 
     <View
-        android:id="@+id/view2"
         android:layout_width="match_parent"
         android:layout_height="310dp"
         android:background="@drawable/bg_gradient_primary_blue"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -26,9 +26,9 @@
         android:layout_marginEnd="100dp"
         android:fontFamily="@font/mregular"
         android:lineSpacingExtra="9dp"
-        android:text="Take a Photo"
+        android:text="Dashboard"
         android:textColor="#FFF"
-        android:textSize="24sp"
+        android:textSize="26sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.428"
@@ -45,63 +45,35 @@
         android:layout_marginEnd="100dp"
         android:fontFamily="@font/mlight"
         android:lineSpacingExtra="9dp"
-        android:text="Make your best adventurous \nlook now"
-        android:textAlignment="center"
+        android:text="Jane Doe"
         android:textColor="#FFF"
-        android:textSize="20sp"
+        android:textSize="22sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.473"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/textView2"
-        app:layout_constraintVertical_bias="0.057" />
+        app:layout_constraintVertical_bias="0.06" />
 
-    <View
-        android:layout_width="108dp"
-        android:layout_height="108dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="700dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="451dp"
-        android:background="@drawable/bg_view_circle"
-        android:translationZ="90dp"
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="100dp"
+        android:fontFamily="@font/mlight"
+        android:lineSpacingExtra="9dp"
+        android:text="Traveller"
+        android:textColor="#FFF"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.446"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/textView4"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.905" />
-
-    <ImageView
-        android:layout_width="90dp"
-        android:layout_height="90dp"
-        android:layout_marginTop="230dp"
-        android:src="@drawable/icon_nopic"
-        android:translationZ="90dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="230dp"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:background="@drawable/bg_btn_plus_blue"
-        android:translationZ="90dp"
-        android:backgroundTint="@color/bluePrimary"
-        android:fontFamily="@font/mmedium"
-        android:text="+"
-        android:textAlignment="center"
-        android:textColor="#FFF"
-        android:textSize="28sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.614"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@id/linearLayout"
-        android:layout_marginTop="75dp"
-        tools:layout_editor_absoluteY="280dp" />
+        app:layout_constraintTop_toTopOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.106" />
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -123,7 +95,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="24dp"
-            android:layout_marginTop="120dp"
             android:layout_marginRight="24dp"
             android:layout_marginBottom="24dp"
             android:color="@color/blackPrimary"
@@ -133,44 +104,29 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:fontFamily="@font/mlight"
-                android:text="@string/name_label"
-                android:textColor="@color/grayPrimary"
-                android:textSize="20sp" />
-
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:background="@drawable/bg_input_edit"
-                android:inputType="text" />
-
-        </LinearLayout>
-
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="24dp"
-            android:layout_marginRight="24dp"
-            android:layout_marginBottom="0dp"
-            android:color="@color/blackPrimary"
-            android:lines="1"
-            android:orientation="vertical">
-
+                android:fontFamily="@font/mregular"
+                android:text="@string/main_label"
+                android:textColor="@color/blackPrimary"
+                android:textSize="18sp" />
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:fontFamily="@font/mlight"
-                android:text="@string/bio_label"
-                android:textColor="@color/grayPrimary"
-                android:textSize="20sp" />
+                android:text="Explore new journey destinantion"
+                android:textColor="@color/blackPrimary"
+                android:textSize="16sp" />
 
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:background="@drawable/bg_input_edit"
-                android:inputType="textPassword" />
         </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+
+           <ImageView
+
+               />
+
+       </LinearLayout>
 
         <Button
             android:id="@+id/button"
@@ -206,20 +162,20 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="660dp"
-        tools:ignore="MissingConstraints" />
+        tools:layout_editor_absoluteY="647dp"
+        />
 
     <LinearLayout
         android:id="@+id/btn_back"
         android:layout_width="90dp"
         android:layout_height="55dp"
+        android:layout_marginTop="12dp"
         android:layout_marginEnd="24dp"
         android:background="#FFF"
         android:gravity="center"
         android:orientation="vertical"
         app:layout_constraintEnd_toStartOf="@+id/btn_next"
-        tools:layout_editor_absoluteY="660dp"
-        tools:ignore="MissingConstraints">
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
 
         <ImageView
             android:layout_width="30dp"
