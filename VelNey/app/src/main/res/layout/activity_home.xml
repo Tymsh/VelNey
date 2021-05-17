@@ -109,7 +109,7 @@
         android:layout_marginLeft="24dp"
         android:layout_marginTop="50dp"
         android:layout_marginRight="24dp"
-        android:background="@drawable/bg_layout_white"
+        android:background="@drawable/bg_layout_home"
         android:orientation="vertical"
         android:paddingTop="30dp"
         android:paddingBottom="30dp"
@@ -155,7 +155,7 @@
         <LinearLayout
             android:id="@+id/linearLayout2"
             android:layout_width="308dp"
-            android:layout_height="360dp"
+            android:layout_height="238dp"
             android:layout_marginHorizontal="30dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.495"
@@ -168,7 +168,7 @@
                 android:layout_height="68dp"
                 android:layout_gravity="center"
                 android:layout_marginStart="20dp"
-                android:layout_marginTop="0dp"
+                android:layout_marginTop="60dp"
                 android:layout_marginEnd="30dp"
                 android:layout_marginBottom="140dp"
                 android:src="@drawable/ic_borobudur"
@@ -180,14 +180,13 @@
             <TextView
                 android:layout_width="100dp"
                 android:layout_height="16dp"
+                android:layout_marginLeft="-102dp"
+                android:layout_marginTop="90dp"
+                android:layout_marginRight="0dp"
                 android:fontFamily="@font/mregular"
                 android:text="Borobudur"
                 android:textColor="@color/blackPrimary"
-                android:textSize="15dp"
-                android:layout_marginTop="80dp"
-                android:layout_marginLeft="-102dp"
-                android:layout_marginRight="0dp"
-                />
+                android:textSize="15dp" />
 
             <ImageView
                 android:id="@+id/menu2"
@@ -195,7 +194,7 @@
                 android:layout_height="68dp"
                 android:layout_gravity="center"
                 android:layout_marginStart="10dp"
-                android:layout_marginTop="0dp"
+                android:layout_marginTop="60dp"
                 android:layout_marginEnd="30dp"
                 android:layout_marginBottom="140dp"
                 android:src="@drawable/ic_monas"
@@ -207,15 +206,14 @@
             <TextView
                 android:layout_width="100dp"
                 android:layout_height="16dp"
+                android:layout_marginStart="-90dp"
+                android:layout_marginLeft="-102dp"
+                android:layout_marginTop="90dp"
+                android:layout_marginRight="0dp"
                 android:fontFamily="@font/mregular"
                 android:text="Monas"
                 android:textColor="@color/blackPrimary"
-                android:textSize="15dp"
-                android:layout_marginTop="80dp"
-                android:layout_marginStart="-90dp"
-                android:layout_marginLeft="-102dp"
-                android:layout_marginRight="0dp"
-                />
+                android:textSize="15dp" />
 
             <ImageView
                 android:id="@+id/menu3"
@@ -223,7 +221,7 @@
                 android:layout_height="68dp"
                 android:layout_gravity="center"
                 android:layout_marginStart="0dp"
-                android:layout_marginTop="0dp"
+                android:layout_marginTop="60dp"
                 android:layout_marginEnd="20dp"
                 android:layout_marginBottom="140dp"
                 android:src="@drawable/ic_pagoda"
@@ -235,22 +233,22 @@
             <TextView
                 android:layout_width="100dp"
                 android:layout_height="16dp"
+                android:layout_marginStart="-80dp"
+                android:layout_marginLeft="-102dp"
+                android:layout_marginTop="90dp"
+                android:layout_marginRight="0dp"
                 android:fontFamily="@font/mregular"
                 android:text="Pagoda"
                 android:textColor="@color/blackPrimary"
-                android:textSize="15dp"
-                android:layout_marginTop="80dp"
-                android:layout_marginStart="-80dp"
-                android:layout_marginLeft="-102dp"
-                android:layout_marginRight="0dp"
-                />
+                android:textSize="15dp" />
+
             <ImageView
                 android:id="@+id/menu4"
                 android:layout_width="68dp"
                 android:layout_height="68dp"
                 android:layout_gravity="center"
                 android:layout_marginStart="-325dp"
-                android:layout_marginTop="120dp"
+                android:layout_marginTop="190dp"
                 android:layout_marginEnd="30dp"
                 android:layout_marginBottom="140dp"
                 android:src="@drawable/ic_pisa"
@@ -262,14 +260,13 @@
             <TextView
                 android:layout_width="100dp"
                 android:layout_height="16dp"
+                android:layout_marginLeft="-80dp"
+                android:layout_marginTop="220dp"
+                android:layout_marginRight="0dp"
                 android:fontFamily="@font/mregular"
                 android:text="Pisa"
                 android:textColor="@color/blackPrimary"
-                android:textSize="15dp"
-                android:layout_marginTop="200dp"
-                android:layout_marginLeft="-80dp"
-                android:layout_marginRight="0dp"
-                />
+                android:textSize="15dp" />
 
             <ImageView
                 android:id="@+id/menu5"
@@ -277,7 +274,7 @@
                 android:layout_height="68dp"
                 android:layout_gravity="center"
                 android:layout_marginStart="-15dp"
-                android:layout_marginTop="120dp"
+                android:layout_marginTop="190dp"
                 android:layout_marginEnd="30dp"
                 android:layout_marginBottom="140dp"
                 android:src="@drawable/ic_sphinx"
@@ -289,15 +286,14 @@
             <TextView
                 android:layout_width="100dp"
                 android:layout_height="16dp"
+                android:layout_marginStart="-85dp"
+                android:layout_marginLeft="-102dp"
+                android:layout_marginTop="220dp"
+                android:layout_marginRight="0dp"
                 android:fontFamily="@font/mregular"
                 android:text="Sphinx"
                 android:textColor="@color/blackPrimary"
-                android:textSize="15dp"
-                android:layout_marginTop="200dp"
-                android:layout_marginStart="-85dp"
-                android:layout_marginLeft="-102dp"
-                android:layout_marginRight="0dp"
-                />
+                android:textSize="15dp" />
 
             <ImageView
                 android:id="@+id/menu6"
@@ -305,7 +301,7 @@
                 android:layout_height="68dp"
                 android:layout_gravity="center"
                 android:layout_marginStart="0dp"
-                android:layout_marginTop="120dp"
+                android:layout_marginTop="190dp"
                 android:layout_marginEnd="20dp"
                 android:layout_marginBottom="140dp"
                 android:src="@drawable/ic_torri"
@@ -317,21 +313,61 @@
             <TextView
                 android:layout_width="100dp"
                 android:layout_height="16dp"
+                android:layout_marginStart="-70dp"
+                android:layout_marginLeft="-102dp"
+                android:layout_marginTop="220dp"
+                android:layout_marginRight="0dp"
                 android:fontFamily="@font/mregular"
                 android:text="Torri"
                 android:textColor="@color/blackPrimary"
-                android:textSize="15dp"
-                android:layout_marginTop="200dp"
-                android:layout_marginStart="-70dp"
-                android:layout_marginLeft="-102dp"
-                android:layout_marginRight="0dp"
-                />
+                android:textSize="15dp" />
 
         </LinearLayout>
 
     </LinearLayout>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.32">
 
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:fontFamily="@font/mregular"
+            android:text="@string/tips_label"
+            android:textColor="@color/blackPrimary"
+            android:textSize="18sp" />
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginLeft="-100dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/mlight"
+            android:text="Here are some tips for you !"
+            android:textColor="@color/blackPrimary"
+            android:textSize="16sp" />
 
+        <ImageView
+            android:layout_width="160dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="-350dp"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/item_two" />
+        <ImageView
+            android:layout_width="160dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/item_one" />
+
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

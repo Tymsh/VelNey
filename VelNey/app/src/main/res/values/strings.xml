@@ -11,4 +11,5 @@
     <string name="bio_label">Your Passion</string>
     <string name="explore_label">Start Explore</string>
     <string name="main_label">Main Page</string>
+    <string name="tips_label">Ticket Tips</string>
 </resources>
