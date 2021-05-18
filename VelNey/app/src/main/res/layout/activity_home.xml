@@ -356,12 +356,16 @@
             android:textColor="@color/blackPrimary"
             android:textSize="16sp" />
 
-        <ImageView
+        <Button
+            android:id="@+id/btn_pisa"
             android:layout_width="160dp"
             android:layout_height="60dp"
             android:layout_marginLeft="-350dp"
             android:layout_marginTop="50dp"
-            android:src="@drawable/item_two" />
+            android:background="@drawable/item_two"
+            android:backgroundTint="@drawable/item_two"
+            />
+
         <ImageView
             android:layout_width="160dp"
             android:layout_height="60dp"
