@@ -356,7 +356,7 @@
             android:textColor="@color/blackPrimary"
             android:textSize="16sp" />
 
-        <Button
+        <ZoomButton
             android:id="@+id/btn_pisa"
             android:layout_width="160dp"
             android:layout_height="60dp"
@@ -366,7 +366,8 @@
             android:backgroundTint="@drawable/item_two"
             />
 
-        <ImageView
+        <ZoomButton
+            android:id="@+id/btn_eifel"
             android:layout_width="160dp"
             android:layout_height="60dp"
             android:layout_marginLeft="10dp"
