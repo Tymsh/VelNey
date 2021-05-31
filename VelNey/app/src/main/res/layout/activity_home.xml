@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -16,8 +17,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
+        app:layout_constraintTop_toTopOf="parent"
+        />
     <TextView
         android:id="@+id/dashboard"
         android:layout_width="wrap_content"
@@ -71,8 +72,8 @@
         android:textSize="20sp"
         app:layout_constraintStart_toEndOf="@+id/tourist1"
         app:layout_constraintTop_toBottomOf="@+id/dashboard" />
-
     <TextView
+        android:id="@+id/tourist_2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="28dp"
@@ -112,7 +113,7 @@
         android:paddingRight="24dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" >
+        app:layout_constraintTop_toBottomOf="@+id/tourist_2" >
 
         <TextView
             android:layout_width="wrap_content"
@@ -123,6 +124,7 @@
             android:textSize="20sp" />
 
         <TextView
+            android:id="@+id/tagline"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
@@ -138,14 +140,12 @@
             android:layout_marginBottom="16dp"
             android:background="#EDEDED"
             />
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:layout_marginBottom="24dp"
             android:weightSum="3">
-
             <LinearLayout
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
@@ -196,11 +196,14 @@
 
             </LinearLayout>
 
+
             <LinearLayout
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:orientation="vertical"
+                app:layout_constraintTop_toBottomOf="@+id/tagline"
+                android:layout_marginTop="00dp"
                 android:gravity="center"
                 >
                 <ImageView
@@ -220,8 +223,7 @@
                     />
 
             </LinearLayout>
-
-    </LinearLayout>
+        </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -305,7 +307,7 @@
 
         </LinearLayout>
 
-</LinearLayout>
+    </LinearLayout>
 
     <TextView
         android:id="@+id/textView5"
