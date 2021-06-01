@@ -154,6 +154,7 @@
                 android:gravity="center"
                 >
                 <ImageView
+                    android:id="@+id/borobudur"
                     android:layout_width="64dp"
                     android:layout_height="64dp"
                     android:src="@drawable/ic_borobudur"
@@ -179,6 +180,7 @@
                 android:gravity="center"
                 >
                 <ImageView
+                    android:id="@+id/monas"
                     android:layout_width="64dp"
                     android:layout_height="64dp"
                     android:src="@drawable/ic_monas"
@@ -207,6 +209,7 @@
                 android:gravity="center"
                 >
                 <ImageView
+                    android:id="@+id/pagoda"
                     android:layout_width="64dp"
                     android:layout_height="64dp"
                     android:src="@drawable/ic_pagoda"
@@ -238,6 +241,7 @@
                 android:gravity="center"
                 >
                 <ImageView
+                    android:id="@+id/pisa"
                     android:layout_width="64dp"
                     android:layout_height="64dp"
                     android:src="@drawable/ic_pisa"
@@ -263,6 +267,7 @@
                 android:gravity="center"
                 >
                 <ImageView
+                    android:id="@+id/sphinx"
                     android:layout_width="64dp"
                     android:layout_height="64dp"
                     android:src="@drawable/ic_sphinx"
@@ -288,6 +293,7 @@
                 android:gravity="center"
                 >
                 <ImageView
+                    android:id="@+id/tori"
                     android:layout_width="64dp"
                     android:layout_height="64dp"
                     android:src="@drawable/ic_torri"
