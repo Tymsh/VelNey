@@ -25,4 +25,3 @@ public class HomeActivity extends AppCompatActivity {
     sphinx = findViewById(R.id.sphinx);
     tori = findViewById(R.id.tori);
     ticket_2 = findViewById(R.id.ticket_2);
-    
